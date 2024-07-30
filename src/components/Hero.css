@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .navlinks ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin:10px;
+    padding:10px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(29, 117, 29);
+    margin:10px;
+    padding:10px;
+  }
+  a:hover{
+    color: rgb(53, 173, 197);
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    display: flex;
+    /* gap: 25px; */
+  }
+  header{
+    position: sticky;
+    top:0;
+    z-index: 99;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    height: 80px;
+    background-color: rgb(6, 6, 59);
+  }
+  .Logopart{
+    display: flex;
+    gap:5px;
+  }
+  h2{
+    font-size: 37px;
+    color: white;
+  }
+  .startbutton{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .herodiv{
+    width: 30%;
+    margin-left: 10%;
+    padding-top:12%;
+    text-align: center;
+  }
+  .herodiv h1{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+  }
+  .herodiv p{
+    font-size: 22px;
+    font-weight: 600;
+    margin:20px;
+  }
+  .herodiv button{
+    margin:20px;
+    height: 50px;
+    width: 150px;
+    border:none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .mainherodiv{
+    background:url(../assets/backgroundimage.avif) no-repeat center center;
+    height: 100vh;
+  }
+  .wrapper-card{
+    display: flex;
+  
+  }
+  .image{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    margin-top: 9%;
+    margin-left:6%;
+    z-index: 9;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+  }
+  .sidecard{
+    width: 55%;
+    height: 38em;
+    background-color: rgb(237, 234, 234);
+    margin-top: 5%;
+    left:42%;
+    position: relative;
+    /* z-index: 0; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .sidecard div{
+    width: 65%;
+  
+  }
+  .sidecard div h1{
+    margin:20px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .sidecard div p{
+    margin:20px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .sidecard div button{
+    width: 190px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    margin:20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(6, 6, 59);
+  }
+  .wrapper-profile{
+    margin:25px;
+    width: 28%;
+    
+  }
+  .profilesummary{
+    padding:30px;
+    line-height: 22px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 10px;
+  }
+  .profilesummary p{
+    font-size: 17px;
+    padding:10px;
+    
+  }
+  .profile{
+    margin-top: 10px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+  }
+  #profile{
+    padding:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Footer-wrapper{
+    background-color: rgb(249, 239, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footerlogo{
+    display: flex;
+    margin:20px;
+    gap:10px;
+  }
+  .footerlogo h3{
+    font-size: 30px;
+    color: rgb(29, 117, 29);
+    
+  }
+  .footernav{
+    margin:15px;
+  }
+  .footerpara p{
+    font-size: 19px;
+    margin:20px;
+    width: 450px;
+  }
+  .sociallinks{
+    margin:20px;
+  }
